@@ -11,7 +11,8 @@ const lastMessageFromContact = new Map<string, number>();
 const lastBotReply = new Map<string, number>();
 
 function isStoreOpen(): boolean {
-    const now = new Date();
+    const nowString = new Date().toLocaleString("en-US", { timeZone: config.timeZone });
+    const now = new Date(nowString);
     const dayIndex = now.getDay(); // 0 = Sunday
     const days = ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday'] as const;
     const todayName = days[dayIndex];

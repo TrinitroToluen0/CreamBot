@@ -1,6 +1,6 @@
 export interface DaySchedule {
-    start: string; // Formato "HH:MM" (24 horas)
-    end: string;   // Formato "HH:MM" (24 horas)
+    start: string; // Format "HH:MM" (24 hours)
+    end: string;   // Format "HH:MM" (24 hours)
 }
 
 export interface Config {
@@ -19,6 +19,7 @@ export interface Config {
         saturday: DaySchedule | null;
         sunday: DaySchedule | null;
     };
+    timeZone: string;
 }
 
 const defaultSchedule: DaySchedule = { start: "10:00", end: "20:30" };
@@ -39,7 +40,8 @@ export const config: Config = {
         friday: defaultSchedule,
         saturday: defaultSchedule,
         sunday: defaultSchedule
-        // Si quieres cerrar un día entero, puedes poner:
+        // If you want to close a whole day, you can put:
         // monday: null
-    }
+    },
+    timeZone: "America/Bogota"
 };
