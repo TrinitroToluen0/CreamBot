@@ -26,7 +26,7 @@ const defaultSchedule: DaySchedule = { start: "10:00", end: "20:30" };
 
 export const config: Config = {
     messages: {
-        backSoon: "🍓✨ ¡Hola! Gracias por escribir a *Cream* \n\nHemos *recibido tu mensaje* y en breve te estaremos respondiendo 😊\n\nSi deseas hacer un pedido, puedes adelantarnos la siguiente información para atender te más rápido 🚀:\n\n📝 *Pedido:*\n📍 *Dirección:*\n💳 *Método de pago:*\n👤 *Nombre de quien recibe:*\n📞 *Teléfono de contacto:*\n\n¡Gracias por tu paciencia! 💖",
+        backSoon: "🍓✨ ¡Hola! Gracias por escribir a *Cream* \n\nHemos *recibido tu mensaje* y en breve te estaremos respondiendo 😊\n\nSi deseas hacer un pedido, puedes adelantarnos la siguiente información para atenderte más rápido 🚀:\n\n📝 *Pedido:*\n📍 *Dirección:*\n💳 *Método de pago:*\n👤 *Nombre de quien recibe:*\n📞 *Teléfono de contacto:*\n\n¡Gracias por tu paciencia! 💖",
         closed: "🌙🍓 ¡Hola! Gracias por escribir a *Cream* \n\nEn este momento nos encontramos *cerrados* 😴\n\n🕒 *Horario de atención:*\nTodos los días de 10:00 AM a 8:30 PM\n\nPero no te preocupes 😊, puedes dejarnos tu *pedido* con todos los datos y lo estaremos despachando *tan pronto abramos*."
 
     },
